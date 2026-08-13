@@ -1,1 +1,40 @@
 /*  your css code here. If applicable */
+body{
+	margin: 0px;
+	padding: 2px;
+	font-family: Arial sans-serif;
+	background : linear-gradient(to bottom, #8fd0ed, #a9d9ed);
+}
+h3{
+	margin: 0px;
+	padding: 1px 4px;
+	background-color:black;
+	color:white;
+	font-size: 18px;
+}
+p{
+	margin: 14px 2px;
+	font-size:16px;
+	line-height:1.2;
+}
+.red{
+	color:red;
+}
+ul{
+	width:650px;
+	margin-left:25px;
+	padding-left:25px;
+}
+li{
+	height:41px;
+	line-height:41px;
+	padding-left: 10px;
+	font-size:18px;
+	background-color:white;
+}
+li:nth-child(2), li:nth-child(4){
+	background-color: #7d8996;
+}
+li:nth-child(3){
+	background-color: #f2b6c1;
+}
